@@ -28,6 +28,12 @@ An original script for VBA analysis of Green Energy stock was created to analyze
 ### Analysis of Execution Times
 #### Refactored Script vs. Original Script
 
+When refactoring this VBA script, two considerations were taken into account:
 
+  1. Improving the processing speed of the code.
+  
+  2. Updating Variable titles to more specifically delineate what data they represent. This makes the code more userfriendly if we need to go back and adjust the script or if another coder uses this script in the future. 
+ 
+ 
  
   
