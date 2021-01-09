@@ -34,22 +34,30 @@ When refactoring this VBA script, two considerations were taken into account:
 
    The orignial script was using two indipendent loops; one loop to calculate the Valume and a separate loop to calculate the Return. 
     
-    totalVolume = 0
-    
     Dim startingPrice As Double
     Dim endingPrice As Double
     
    In order to make this code more run more efficient, the re-factored code included the tickerVolumes as an output array in the same nested loop as the tickerStartingPrices and tickerEndingPrices.
    
-    For i = 0 To 11
-        tickerIndex = tickers(i)
-    
-        Dim tickerVolumes As Long
-        Dim tickerStartingPrices As Single
-        Dim tickerEndingPrices As Single
+    Dim tickerVolumes As Long
+    Dim tickerStartingPrices As Single
+    Dim tickerEndingPrices As Single
   
-  2. Updating Variable titles to more specifically delineate what data they represent. This makes the code easier to understand if we need to go back and adjust the script or if another coder uses this script in the future. 
- 
+  2. **Updating Variable titles to more specifically delineate what data they represent.** 
+  
+   This taylors the code more specifically to the dataset that we are analyzing and will be helpful if we or another coder needs to update the script.
+   
+   Original Script:
+    
+      Cells(4 + i, 1).Value = ticker
+      Cells(4 + i, 2).Value = totalVolume
+      Cells(4 + i, 3).Value = endingPrice / startingPrice - 1
+  
+  Refactored Code:
+  
+      Cells(4 + i, 1).Value = tickerIndex
+      Cells(4 + i, 2).Value = tickerVolumes
+      Cells(4 + i, 3).Value = tickerEndingPrices / tickerStartingPrices - 1
  
  
   
