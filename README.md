@@ -30,9 +30,13 @@ An original script for VBA analysis of Green Energy stock was created to analyze
 
 When refactoring this VBA script, two considerations were taken into account:
 
-  1. Improving the processing speed of the code.
+  1. **Improving the processing speed of the code.**
+    
+    The orignial script was using two indipendent loops; one loop to calculate the Valume and a separate loop to calculate the Return. In order to make this code more run more efficient, the re-factored code included the tickerVolumes as an output array in the same nested loop as the tickerStartingPrices and tickerEndingPrices.
+   
+   ![](Additional_Resources/Refactored_OutputArrays.png)
   
-  2. Updating Variable titles to more specifically delineate what data they represent. This makes the code more userfriendly if we need to go back and adjust the script or if another coder uses this script in the future. 
+  2. Updating Variable titles to more specifically delineate what data they represent. This makes the code easier to understand if we need to go back and adjust the script or if another coder uses this script in the future. 
  
  
  
