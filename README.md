@@ -14,5 +14,10 @@ An original script for VBA analysis of Green Energy stock was created to analyze
   
   Below are screenshots of the VBA Analyis generated with the refactored code:
   
-  
+  <img align="left" src="Additional_Resources/Ticker_Analysis_2017.png">
+ 
+ ![](Additional_Resources/Ticker_Analysis_2018.png)
+ 
+
+ 
   
