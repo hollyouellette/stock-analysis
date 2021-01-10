@@ -4,7 +4,7 @@
 
 ## Introduction & Project Overview
 
-An original script for VBA analysis of Green Energy stock was created to analyze the marketplace performance of 12 different Green Energy stocks in the years 2017 and 2018. The goal of this project was to refactor the orginal script to make it gather the same information, only faster. This project was taken on to ensure that this code can run efficiently when analyzing the entire stock market, versus the dozen stocks that the original code was written to analyze.
+An original script for VBA analysis of Green Energy stock was created to analyze the marketplace performance of 12 different Green Energy stocks in the years 2017 and 2018. The goal of this project was to refactor the orginal script to make it gather the same information, only faster. This project was taken on to ensure that this code can run efficiently and accurately when analyzing the entire stock market, versus the dozen stocks that the original code was written to analyze.
 
 ## Results
 
@@ -62,7 +62,7 @@ When refactoring this VBA script, two considerations were taken into account:
  
 ##### Updating Variable Names
   
-   This taylors the code more specifically to the dataset that we are analyzing and will be helpful if we or another coder needs to update the script.
+   This taylors the code more specifically to the dataset that we are analyzing and makes the code easier to read and understand.
    
    Original Script:
     
@@ -76,5 +76,18 @@ When refactoring this VBA script, two considerations were taken into account:
       Cells(4 + i, 2).Value = tickerVolumes
       Cells(4 + i, 3).Value = tickerEndingPrices / tickerStartingPrices - 1
  
+ ## Summary
+ ### Advantages and Disadvantages of Refactoring Code
  
+ **For refarctoring code in general:**
+  
+  Generally speaking, the first attempt at writing a code to accomplish a specific task might not be the best solution. By refactoring, we can update the code to take fewer steps, run faster and use less memory. In addition to this, refactoring code can make it easier for users to read and understand. 
+  
+  However, refactoring code also has disadvantages. There is a potential risk of introducing bugs and stop a previously functional code from running. In addition to this, refactoring code requires an additional time investment layered on top of the time taken to write the orignal script. This additional time invested might only yield an improved processing time of merely factors of a second and ultimately produces the same end product as the original code. 
+
+**For the refactored VBA Script:**
+  
+  In this assignment specifically, the refactored VBA script did make the code run faster when looping through the 2017 Worksheet. In addition to this, the refactored VBA Script is both easier for users to read and to understand.
+  
+  For disadvantages related to this assignment, while the refactored code did 
   
