@@ -85,7 +85,7 @@ When refactoring this VBA script, two considerations were taken into account:
   
   Generally speaking, the first attempt at writing a code to accomplish a specific task might not be the best solution. By refactoring, we can update the code to take fewer steps, run faster and use less memory. In addition to this, refactoring code can make it easier for users to read and understand. 
   
-  However, refactoring code also has disadvantages. There is a potential risk of introducing bugs and stopping a previously functional code from running. In addition to this, refactoring code requires an additional time investment layered on top of the time taken to write the orignal script. This additional time invested might only yield an improved processing time of merely factors of a second and ultimately produces the same end product as the original code. 
+  However, refactoring code also has disadvantages. There is a potential risk of introducing bugs and stopping a previously functional code from running. In addition to this, refactoring code requires an additional time investment layered on top of the time taken to write the original script. This additional time invested might only yield an improved processing time of merely factors of a second and ultimately produces the same end product as the original code. 
 
 **For the Refactored VBA Script:**
   
