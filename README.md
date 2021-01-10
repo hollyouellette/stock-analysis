@@ -8,7 +8,7 @@ An original script for VBA analysis of Green Energy stock was created to analyze
 
 ## Results
 
-### Analysis of 2017 and 2018 Return
+### Comparison of 2017 and 2018 Return
   
   This analysis was performed to assess the performance of each stock based on it's **Yearly Volume**, how often the stock get's traded, and it's **Yearly Return**, the percentage increase (or decrease) in stock price from the beginning of the year to the end of the year.
   
@@ -25,7 +25,7 @@ An original script for VBA analysis of Green Energy stock was created to analyze
   - DQ's stock plummeted in 2018, going from having the highest Yearly Return in 2017 to the lowest Yearly Return in 2018.
   - If I were to advise someone on where best to invest their money, based on 2017 and 2018 data, ENPH and RUN have continued to see positive returns accross the last two years.
   
-### Analysis of Execution Times
+### Comparison of Execution Times
 #### Refactored Script vs. Original Script
 
 When refactoring this VBA script, two considerations were taken into account:
