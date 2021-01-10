@@ -48,13 +48,13 @@ When refactoring this VBA script, two considerations were taken into account:
   
   As a result of the refactoring, we saw an increase in the processing spead for both the 2018 worksheet and an identical processing spead for the 2017 worksheet (shown in the screenshots below):
   
-  ###### Processing Speed for Refactored Script
+  ###### Processing Speed of Refactored Script
   
   <img align="left" src="Resources/VBA_Challenge_2017.png" width="450">
   
   <img src="Resources/VBA_Challenge_2018.png" width ="475">
   
-  ###### Processing Speed for Original Script
+  ###### Processing Speed of Original Script
   
   <img align="left" src="Additional_Resources/OriginalScript_2017.png" width="450">
   
@@ -79,7 +79,7 @@ When refactoring this VBA script, two considerations were taken into account:
  ## Summary
  ### Advantages and Disadvantages of Refactoring Code
  
- **For refarctoring code in general:**
+ **For refactoring code in general:**
   
   Generally speaking, the first attempt at writing a code to accomplish a specific task might not be the best solution. By refactoring, we can update the code to take fewer steps, run faster and use less memory. In addition to this, refactoring code can make it easier for users to read and understand. 
   
