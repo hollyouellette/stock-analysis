@@ -30,7 +30,7 @@ An original script for VBA analysis of Green Energy stock was created to analyze
 
 When refactoring this VBA script, two considerations were taken into account:
 
-  1. **Improving the processing speed of the code.**
+ 1. **Improving the processing speed of the code.**
 
    The orignial script was using two indipendent loops; one loop to calculate the Valume and a separate loop to calculate the Return. 
     
@@ -43,7 +43,21 @@ When refactoring this VBA script, two considerations were taken into account:
     Dim tickerStartingPrices As Single
     Dim tickerEndingPrices As Single
   
-  2. **Updating Variable titles to more specifically delineate what data they represent.** 
+  As a result of the refactoring, we saw an increase in the processing spead for both the 2017 and 2018 datasets:
+  
+  **"Processing Speed for Refactored Script**
+  
+  <img align="left" src="Resources/VBA_Challenge_2017.png" width="450">
+  
+  <img src="Resources/VBA_Challenge_2018.png" width ="475">
+  
+  **"Processing Speed for Original Script**
+  
+  <img align="left" src="Additional_Resources/OriginalScript_2017.png" width="450">
+  
+  <img src="Resources/VBA_Challenge_2018.png" width ="475">
+ 
+ 2. **Updating Variable titles to more specifically delineate what data they represent.** 
   
    This taylors the code more specifically to the dataset that we are analyzing and will be helpful if we or another coder needs to update the script.
    
