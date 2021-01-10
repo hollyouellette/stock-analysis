@@ -10,7 +10,7 @@ An original script for VBA analysis of Green Energy stock was created to analyze
 
 ### Comparison of 2017 and 2018 Return
   
-  This analysis was performed to assess the performance of each stock based on it's **Yearly Volume**, how often the stock get's traded, and it's **Yearly Return**, the percentage increase (or decrease) in stock price from the beginning of the year to the end of the year.
+  This analysis was performed to assess the performance of each stock based on its **Yearly Volume**, how often the stock gets traded, and its **Yearly Return**, the percentage increase (or decrease) in stock price from the beginning of the year to the end of the year.
   
   Below are screenshots of the VBA Analysis generated with the refactored code:
   
