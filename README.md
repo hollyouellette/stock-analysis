@@ -87,7 +87,7 @@ When refactoring this VBA script, two considerations were taken into account:
 
 **For the refactored VBA Script:**
   
-  In this assignment specifically, the refactored VBA script did make the code run faster when looping through the 2017 Worksheet. In addition to this, the refactored VBA Script is both easier for users to read and to understand.
+  In this assignment specifically, the refactored VBA script did make the code run faster when looping through the 2018 Worksheet. In addition to this, the refactored VBA Script is both easier for users to read and to understand.
   
-  For disadvantages related to this assignment, while the refactored code did 
+  For disadvantages related to this assignment, while the refactored code did slightly improve the processing time for the 2018 Worksheet, this improvement was very minimal in relation to the time that it took to refactor the code. In addition to this, in the process of refactoring the code, there were several instances where the code did not run. This required additional time investment to de-bugging the updates to the code so that it could run correctly.
   
