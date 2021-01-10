@@ -21,7 +21,7 @@ An original script for VBA analysis of Green Energy stock was created to analyze
  Based on the above analysis, we can make the following comparisons to the stock performance between 2017 and 2018:
  
   - Green Energy Stocks in general saw a significant decrease in performance in 2018 from 2017.
-  - The amount that a stock is traded, it's yearly Volume, does not necessarily influence it's Yearly Return.
+  - The amount that a stock is traded, its Yearly Volume, does not necessarily influence it's Yearly Return.
   - DQ's stock plummeted in 2018, going from having the highest Yearly Return in 2017 to the lowest Yearly Return in 2018.
   - If I were to advise someone on where best to invest their money, based on 2017 and 2018 data, ENPH and RUN have continued to see positive returns accross the last two years.
   
@@ -31,7 +31,7 @@ An original script for VBA analysis of Green Energy stock was created to analyze
 When refactoring this VBA script, two considerations were taken into account:
 
  1. Improving the processing speed of the code.
- 2. Updating Variable names to more specifically describe what data they represent.
+ 2. Updating variable names to more specifically describe what data they represent.
  
  
 ##### Improving the Processing Speed 
