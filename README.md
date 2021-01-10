@@ -1,5 +1,5 @@
 # Analysis of Green Energy Stocks
-  VBA analysis of Green Energy stocks for 2017 & 2018.
+  VBA analysis of Green Energy Stocks for 2017 & 2018.
 
 
 ## Introduction & Project Overview
