@@ -55,7 +55,7 @@ When refactoring this VBA script, two considerations were taken into account:
   
   <img align="left" src="Additional_Resources/OriginalScript_2017.png" width="450">
   
-  <img src="Resources/VBA_Challenge_2018.png" width ="475">
+  <img src="Additional_Resources/OriginalScript_2018.png" width ="475">
  
  2. **Updating Variable titles to more specifically delineate what data they represent.** 
   
