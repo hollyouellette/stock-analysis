@@ -33,6 +33,7 @@ When refactoring this VBA script, two considerations were taken into account:
  1. Improving the processing speed of the code.
  2. Updating Variable names to more specifically delineate what data they represent.
  
+ 
 ##### Improving the Processing Speed 
 
    The orignial script was using two indipendent loops; one loop to calculate the Valume and a separate loop to calculate the Return. 
@@ -59,6 +60,7 @@ When refactoring this VBA script, two considerations were taken into account:
   <img align="left" src="Additional_Resources/OriginalScript_2017.png" width="450">
   
   <img src="Additional_Resources/OriginalScript_2018.png" width ="450">
+ 
  
 ##### Updating Variable Names
   
