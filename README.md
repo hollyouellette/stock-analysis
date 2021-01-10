@@ -43,19 +43,19 @@ When refactoring this VBA script, two considerations were taken into account:
     Dim tickerStartingPrices As Single
     Dim tickerEndingPrices As Single
   
-  As a result of the refactoring, we saw an increase in the processing spead for both the 2017 and 2018 datasets:
+  As a result of the refactoring, we saw an increase in the processing spead for both the 2018 worksheet and an identical processing spead for the 2017 worksheet (shown in the screenshots below):
   
-  **"Processing Speed for Refactored Script**
+  **Processing Speed for Refactored Script**
   
   <img align="left" src="Resources/VBA_Challenge_2017.png" width="450">
   
   <img src="Resources/VBA_Challenge_2018.png" width ="475">
   
-  **"Processing Speed for Original Script**
+  **Processing Speed for Original Script**
   
   <img align="left" src="Additional_Resources/OriginalScript_2017.png" width="450">
   
-  <img src="Additional_Resources/OriginalScript_2018.png" width ="475">
+  <img src="Additional_Resources/OriginalScript_2018.png" width ="450">
  
  2. **Updating Variable titles to more specifically delineate what data they represent.** 
   
