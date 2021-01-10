@@ -53,7 +53,7 @@ When refactoring this VBA script, two considerations were taken into account:
   
  <img align="left" src="Resources/VBA_Challenge_2017.png" width="350">
   
-  <img src="Resources/VBA_Challenge_2018.png" width ="375">
+  <img src="Resources/VBA_Challenge_2018.png" width ="350">
   
   ###### Processing Speeds of the Original Script
   
