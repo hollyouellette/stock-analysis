@@ -30,7 +30,10 @@ An original script for VBA analysis of Green Energy stock was created to analyze
 
 When refactoring this VBA script, two considerations were taken into account:
 
- 1. **Improving the processing speed of the code.**
+ 1. Improving the processing speed of the code.
+ 2. Updating Variable names to more specifically delineate what data they represent.
+ 
+##### Improving the Processing Speed 
 
    The orignial script was using two indipendent loops; one loop to calculate the Valume and a separate loop to calculate the Return. 
     
@@ -57,7 +60,7 @@ When refactoring this VBA script, two considerations were taken into account:
   
   <img src="Additional_Resources/OriginalScript_2018.png" width ="450">
  
- 2. **Updating Variable titles to more specifically delineate what data they represent.** 
+##### Updating Variable Names
   
    This taylors the code more specifically to the dataset that we are analyzing and will be helpful if we or another coder needs to update the script.
    
