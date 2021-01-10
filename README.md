@@ -14,9 +14,9 @@ An original script for VBA analysis of Green Energy stock was created to analyze
   
   Below are screenshots of the VBA Analysis generated with the refactored code:
   
- <img align="left" src="Additional_Resources/Ticker_Analysis_2017.png">
+ <img align="left" src="Additional_Resources/Ticker_Analysis_2017.png" width="300">
  
- ![](Additional_Resources/Ticker_Analysis_2018.png)
+  <img src="Additional_Resources/Ticker_Analysis_2018.png" width="300">
  
  Based on the above analysis, we can make the following comparisons to the stock performance between 2017 and 2018:
  
@@ -51,15 +51,15 @@ When refactoring this VBA script, two considerations were taken into account:
   
   ###### Processing Speeds of the Refactored Script
   
- <img align="left" src="Resources/VBA_Challenge_2017.png" width="450">
+ <img align="left" src="Resources/VBA_Challenge_2017.png" width="350">
   
-  <img src="Resources/VBA_Challenge_2018.png" width ="475">
+  <img src="Resources/VBA_Challenge_2018.png" width ="375">
   
   ###### Processing Speeds of the Original Script
   
- <img align="left" src="Additional_Resources/OriginalScript_2017.png" width="450">
+ <img align="left" src="Additional_Resources/OriginalScript_2017.png" width="350">
   
-  <img src="Additional_Resources/OriginalScript_2018.png" width ="450">
+  <img src="Additional_Resources/OriginalScript_2018.png" width ="350">
  
  
 ##### Updating Variable Names
