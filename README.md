@@ -18,12 +18,12 @@ An original script for VBA analysis of Green Energy stock was created to analyze
  
  ![](Additional_Resources/Ticker_Analysis_2018.png)
  
- Based on these analyses, we can make the following comparisons to the stock performance between 2017 and 2018:
+ Based on the above analysis, we can make the following comparisons to the stock performance between 2017 and 2018:
  
   - Green Energy Stocks in general saw a significant decrease in performance in 2018 from 2017.
   - The amount that a stock is traded, it's yearly Volume, does not necessarily influence it's Yearly Return.
   - DQ's stock plummeted in 2018, going from having the highest Yearly Return in 2017 to the lowest Yearly Return in 2018.
-  - If I were to advise someone on where best to invest their money, based on 2017 and 2018 data, ENPH and RUN have continued to see positive returns accross the last two yers.
+  - If I were to advise someone on where best to invest their money, based on 2017 and 2018 data, ENPH and RUN have continued to see positive returns accross the last two years.
   
 ### Analysis of Execution Times
 #### Refactored Script vs. Original Script
@@ -41,7 +41,7 @@ When refactoring this VBA script, two considerations were taken into account:
     Dim startingPrice As Double
     Dim endingPrice As Double
     
-   In order to make this code more run more efficiently, the re-factored code includes the tickerVolumes as an output array in the same loop as the tickerStartingPrices and tickerEndingPrices.
+   In order to make the code more run more efficiently, the re-factored code includes the tickerVolumes as an output array in the same loop as the tickerStartingPrices and tickerEndingPrices.
    
     Dim tickerVolumes As Long
     Dim tickerStartingPrices As Single
