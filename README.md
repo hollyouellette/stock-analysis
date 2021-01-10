@@ -4,7 +4,7 @@
 
 ## Introduction & Project Overview
 
-An original script for VBA analysis of Green Energy stock was created to analyze the performance of 12 different Green Energy stocks in the years 2017 and 2018. The goal of this project was to refactor the orginal script to make it gather the same information, only faster. This project was taken on to ensure that this code can run efficiently and accurately if used to run analysis of the entire stock market, versus the dozen stocks that the original code was written to analyze.
+An original script for VBA analysis of Green Energy stock was created to analyze the performance of 12 different Green Energy stocks in the years 2017 and 2018. The goal of this project was to refactor the original script to make it gather the same information, only faster. This project was taken on to ensure that this code can run efficiently and accurately if used to run analysis of the entire stock market, versus the dozen stocks that the original code was written to analyze.
 
 ## Results
 
@@ -12,7 +12,7 @@ An original script for VBA analysis of Green Energy stock was created to analyze
   
   This analysis was performed to assess the performance of each stock based on it's **Yearly Volume**, how often the stock get's traded, and it's **Yearly Return**, the percentage increase (or decrease) in stock price from the beginning of the year to the end of the year.
   
-  Below are screenshots of the VBA Analyis generated with the refactored code:
+  Below are screenshots of the VBA Analysis generated with the refactored code:
   
   <img align="left" src="Additional_Resources/Ticker_Analysis_2017.png">
  
@@ -36,7 +36,7 @@ When refactoring this VBA script, two considerations were taken into account:
  
 ##### Improving the Processing Speed 
 
-   The orignial script was using two indipendent loops; one loop to calculate the Volume and a separate loop to calculate the Return. 
+   The original script was using two independent loops; one loop to calculate the Volume and a separate loop to calculate the Return. 
     
     Dim startingPrice As Double
     Dim endingPrice As Double
@@ -47,7 +47,7 @@ When refactoring this VBA script, two considerations were taken into account:
     Dim tickerStartingPrices As Single
     Dim tickerEndingPrices As Single
   
-  As a result of the refactoring, we saw an increase in the processing spead for the 2018 worksheet and an identical processing spead for the 2017 worksheet (shown in the screenshots below):
+  As a result of the refactoring, we saw an increase in the processing speed for the 2018 worksheet and an identical processing speed for the 2017 worksheet (shown in the screenshots below):
   
   ###### Processing Speeds of the Refactored Script
   
@@ -91,5 +91,5 @@ When refactoring this VBA script, two considerations were taken into account:
   
   In this assignment specifically, the refactored VBA script did make the code run faster when looping through the 2018 Worksheet. In addition to this, the refactored VBA Script is both easier for users to read and to understand.
   
-  For disadvantages related to this assignment, while the refactored code did slightly improve the processing time for the 2018 Worksheet, this improvement was very minimal in relation to the time that it took to refactor the code. In addition to this, in the process of refactoring the code, there were several instances where the code did not run. This required additional time investment to debug the updates to the code so that it could run correctly.
+  However, while the refactored code did slightly improve the processing time for the 2018 Worksheet, this improvement was small in relation to the time that it took to refactor the code. Also, the process of refactoring the code resulted in several instances where the code did not run. This required additional time to debug the updates to the code so that it could run correctly.
   
